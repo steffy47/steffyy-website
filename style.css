@@ -1,0 +1,112 @@
+body {
+    background-color: #ffffff;
+    color: #5D4037;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #5D4037;
+}
+
+p {
+    color: #6D4C41;
+}
+
+hr {
+    border-color: #D7CCC8;
+    margin: 20px 0;
+}
+
+img {
+    margin: 10px 0;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid #8D6E63;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #EFEBE9;
+    color: #5D4037;
+}
+
+tr.alt {
+    background-color: #FAF8F7;
+}
+
+ul {
+    color: #6D4C41;
+    line-height: 1.8;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #D7CCC8;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 350px;
+}
+
+label {
+    color: #5D4037;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.submit-btn {
+    background-color: #8D6E63;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #D7CCC8;
+    color: #5D4037;
+}
+
+.submit-btn:hover {
+    background-color: #6D4C41;
+}
+
+.reset-btn:hover {
+    background-color: #BCAAA0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.footer {
+    margin-top: 40px;
+}
